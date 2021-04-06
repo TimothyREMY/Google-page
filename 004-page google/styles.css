@@ -1,0 +1,250 @@
+/*general start*/
+
+body
+{
+width: 100%;
+ height: 100%;
+ margin: 0;
+ padding: 0;
+ min-width: 400px;
+font-family: arial, sans-serif;
+font-size: 0.9em;
+display: table;
+}
+
+html,body
+{
+    height: 100%;
+
+}
+
+
+
+/*general end*/
+
+
+/*header start*/
+
+.gmail > a:hover
+{
+    text-decoration: underline;
+}
+
+.images > a:hover
+{
+    text-decoration: underline;
+}
+
+a:visited
+{
+    text-decoration: none;
+}
+
+.header
+{
+    display: flex;
+    justify-content: flex-end;   
+    margin-top: 10px;
+}
+
+.menu>a
+{
+    color: #000;
+    text-decoration: none;
+}
+
+.menu>a:hover
+{
+    text-decoration: underline;
+}
+.app
+{
+    width: 50%;
+    padding: 10px;
+}
+
+
+.menu
+{
+    padding: 12px;
+}
+
+.application menu
+{
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+svg
+{
+    margin-left: -15px;
+}
+
+.connexion
+{
+    font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    border-radius: 4px;
+    background-color: #1a73e8;
+    color: white;
+    margin-right: 8px;
+    margin-left: 8px;
+    padding: 10px 12px;
+    
+}
+
+.connexion menu
+{
+    text-decoration: none;
+}
+
+.connexion:hover
+{
+    background-color: #2b7de9;
+}
+
+
+/*header end*/
+
+
+/*middle start*/
+
+.logos
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position:relative;
+    align-items: baseline;   
+    padding-bottom: 15px;
+}
+
+
+.logo_google
+{
+    height: 200px;
+    
+}
+
+.logo_partager
+{
+    
+    height: 20px;
+}
+
+.barre_de_recherche
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;   
+    height: 44px; 
+    width: 500px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    margin: 0 auto;
+    padding: 0 3px 0 3px;
+}
+
+.barre_de_recherche>img
+{
+    height: 44px;
+    width: auto;
+    margin: 0 auto;
+}
+
+input
+{
+    border: none;
+    width: 482px;
+    outline: none;
+
+}
+input:hover
+{   background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32, 33, 36/ 8%);
+    border-color: rgba(223, 225, 229, 0);
+}
+input:active
+{
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32, 33, 36/ 8%);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+.boutons
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+    border: none;
+    margin: 20px;
+    
+
+}
+
+
+/*middle end*/
+
+
+
+/*footer*/
+
+.gauche > a
+{
+    max-width: 30%;
+    color: #70757a;  
+}
+
+
+.droite >div> a
+{
+    color: #70757a;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.footer>div>a:hover
+{
+    text-decoration: underline;
+}
+.footer
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: baseline;
+    
+    
+}
+
+.gauche>div>a
+{
+    color: #70757a;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.center>a
+{
+    color: #70757a;
+    text-decoration: none;
+}
+
+footer
+{
+    display: table-row;
+    height: 0px;
+}
+
+.france
+{
+    
+}
